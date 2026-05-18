@@ -16,8 +16,14 @@ export function TodayOffers() {
   const { addItem } = useCart();
 
   return (
-    <section id="offers" className="section-pad relative overflow-hidden bg-void">
-      <div className="absolute inset-0 bg-light-leak opacity-30" aria-hidden />
+    <section
+      id="offers"
+      className="section-pad relative overflow-hidden bg-void"
+    >
+      <div
+        className="absolute inset-0 bg-light-leak opacity-30"
+        aria-hidden
+      />
 
       <SectionHeading
         label="عروض اليوم"
@@ -53,7 +59,9 @@ export function TodayOffers() {
                   sizes="(max-width: 768px) 100vw, 50vw"
                   loading="lazy"
                 />
+
                 <div className="absolute inset-0 bg-gradient-to-r from-void/80 to-transparent md:bg-gradient-to-t" />
+
                 {offer.badge && (
                   <span className="absolute right-4 top-4 rounded-full bg-neon/90 px-4 py-1.5 font-ibm text-xs font-bold text-void">
                     {offer.badge}
@@ -65,24 +73,33 @@ export function TodayOffers() {
                 <h3 className="font-cairo text-2xl font-bold text-cream md:text-3xl">
                   {offer.nameAr}
                 </h3>
+
                 <p className="mt-3 font-alexandria text-cream/60">
                   {offer.descriptionAr}
                 </p>
+
                 <motion.p
                   className="mt-6 font-cairo text-4xl font-black text-pizza"
-                  animate={{ textShadow: ["0 0 20px rgba(255,140,26,0.3)", "0 0 40px rgba(255,140,26,0.6)", "0 0 20px rgba(255,140,26,0.3)"] }}
+                  animate={{
+                    textShadow: [
+                      "0 0 20px rgba(255,140,26,0.3)",
+                      "0 0 40px rgba(255,140,26,0.6)",
+                      "0 0 20px rgba(255,140,26,0.3)",
+                    ],
+                  }}
                   transition={{ duration: 2, repeat: Infinity }}
                 >
                   {formatPrice(offer.price)}
                 </motion.p>
+
                 <MagneticButton
                   className="mt-6 w-fit"
                   onClick={() => addItem(offer)}
                 >
                   اطلب العرض
                 </MagneticButton>
-              </motion.div>
-            </motion.div>
+              </div>
+            </div>
           </motion.article>
         ))}
       </motion.div>
