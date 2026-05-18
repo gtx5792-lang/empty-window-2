@@ -1,0 +1,75 @@
+[
+  {
+    "id": "margherita-royal",
+    "nameAr": "مارغريتا ملكية",
+    "descriptionAr": "صلصة طماطم إيطالية، موزاريلا طازجة، ريحان عطري",
+    "price": 89,
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80",
+    "category": "popular",
+    "badge": "الأكثر طلباً",
+    "isPopular": true
+  },
+  {
+    "id": "pepperoni-blaze",
+    "nameAr": "بيبروني نار",
+    "descriptionAr": "شرائح بيبروني مدخنة مع جبنة موتزاريلا ذائبة",
+    "price": 109,
+    "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80",
+    "category": "popular",
+    "isPopular": true
+  },
+  {
+    "id": "truffle-luxe",
+    "nameAr": "ترافل فاخرة",
+    "descriptionAr": "زيت ترافل، فطر بري، بارميزان مبشور",
+    "price": 149,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+    "category": "popular",
+    "badge": "تشيكنو الخاصة",
+    "isPopular": true
+  },
+  {
+    "id": "four-cheese",
+    "nameAr": "أربعة أجبان",
+    "descriptionAr": "موتزاريلا، جورجونزولا، بارميزان، شيدر",
+    "price": 119,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+    "category": "menu"
+  },
+  {
+    "id": "bbq-chicken",
+    "nameAr": "دجاج باربيكيو",
+    "descriptionAr": "دجاج مشوي، صلصة باربيكيو، بصل مكرمل",
+    "price": 125,
+    "image": "https://images.unsplash.com/photo-1604388585191-7e38548ebc1e?w=800&q=80",
+    "category": "menu"
+  },
+  {
+    "id": "veggie-garden",
+    "nameAr": "حديقة الخضار",
+    "descriptionAr": "فلفل ملون، زيتون، طماطم، فطر طازج",
+    "price": 95,
+    "image": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab44?w=800&q=80",
+    "category": "menu"
+  },
+  {
+    "id": "combo-family",
+    "nameAr": "عرض العائلة",
+    "descriptionAr": "بيتزتين كبيرتين + مشروبين + بطاطس",
+    "price": 199,
+    "image": "https://images.unsplash.com/photo-1595854341625-f33eeabcc31e?w=800&q=80",
+    "category": "offer",
+    "badge": "وفر 40%",
+    "isOffer": true
+  },
+  {
+    "id": "lunch-deal",
+    "nameAr": "عرض الغداء",
+    "descriptionAr": "بيتزا متوسطة + سلطة + مشروب",
+    "price": 79,
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+    "category": "offer",
+    "badge": "لفترة محدودة",
+    "isOffer": true
+  }
+]
