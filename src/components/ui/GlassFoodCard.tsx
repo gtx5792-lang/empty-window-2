@@ -87,9 +87,9 @@ export function GlassFoodCard({ item, index = 0 }: GlassFoodCardProps) {
               )}
             >
               أضف للسلة
-            </motion.button>
-          </motion.div>
-        </motion.div>
+                        </motion.button>
+          </div>
+        </div>
       </motion.div>
     </motion.article>
   );
