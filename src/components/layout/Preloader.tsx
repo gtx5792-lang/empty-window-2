@@ -74,11 +74,12 @@ export function Preloader({ onComplete }: { onComplete: () => void }) {
           {/* Progress bar */}
           <div className="mt-12 h-0.5 w-48 overflow-hidden rounded-full bg-cream/10 md:w-64">
             <motion.div
+                          <motion.div
               className="h-full rounded-full bg-gradient-to-r from-pizza to-neon/60"
               style={{ width: `${Math.min(progress, 100)}%` }}
               transition={{ duration: 0.2 }}
             />
-          </motion.div>
+          </div>
           <motion.span
             className="mt-3 font-ibm text-xs text-cream/40"
             key={Math.floor(progress)}
