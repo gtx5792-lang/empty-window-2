@@ -59,7 +59,7 @@ export function Navbar() {
               </motion.span>
             )}
           </motion.button>
-        </motion.div>
+</div>
       </nav>
     </motion.header>
   );
