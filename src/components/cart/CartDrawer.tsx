@@ -149,7 +149,7 @@ export function CartDrawer() {
                     <span>الضريبة</span>
                     <span>{formatPrice(tax)}</span>
                   </motion.div>
-                  <div className="flex justify-between border-t border-cream/10 pt-3 font-cairo text-lg font-bold text-cream">
+                                   <div className="flex justify-between border-t border-cream/10 pt-3 font-cairo text-lg font-bold text-cream">
                     <span>الإجمالي</span>
                     <motion.span
                       key={total}
@@ -159,7 +159,7 @@ export function CartDrawer() {
                     >
                       {formatPrice(total)}
                     </motion.span>
-                  </motion.div>
+                  </div>
                 </div>
                 <motion.button
                   whileHover={{ scale: 1.02, boxShadow: "0 0 50px rgba(255,140,26,0.5)" }}
